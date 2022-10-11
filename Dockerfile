@@ -13,4 +13,4 @@ EXPOSE 5000
 RUN npm i && npm run build && npx prisma generate
 
 #só executa quando rodarmos a imagem
-CMD ["npm", "start"]
+CMD ["npm", "run", "dev"]
